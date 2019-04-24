@@ -1,0 +1,262 @@
+/*!
+Theme Name: DEEP
+Theme URI: http://underscores.me/
+Author: Lochan
+Author URI: http://www.krishnaharishrestha.com.np
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: deepmala
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+DEEP is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/* ======================================LOCHAN: CUSTOM CSS====================================== */
+
+/* #secondary.widget-area {
+	 padding-top : 70px; 
+} */
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+ul.navbar-nav {
+	padding-left : 150px;
+}
+  
+ul.navbar-nav li.menu-item {
+	padding: 10px;
+    margin-top: 0px;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Lato", sans-serif;
+	padding: 30px 1.25rem;
+	
+
+}
+
+ul.navbar-nav li.menu-item a {
+	color : #00000080;
+}
+
+ul.navbar-nav li.menu-item:hover  {
+	background-color :#faf7f2;
+
+
+}
+
+ul.navbar-nav li.menu-item:hover  a{
+
+	text-decoration: none;
+
+}
+
+/* Footer */
+
+div.footer-widget ul li { 
+	display: inline;
+	padding: 0 20px;
+}
+
+/* =============================== WIDGET =============================================== */
+
+.widget {
+	margin-top : 20px;
+}
+
+.widget_categories ul{
+	padding-top : 5px;
+	background : #faf7f2;
+}
+
+.widget_categories h3{
+	font-size : 18px;
+	color : #fff;
+}
+
+ul li.cat-item {
+	line-height: 20px;
+	list-style: none;
+}
+ 
+
+/* Search  */
+
+.widget_search {
+	background: #faf7f2;
+	padding: 17px;
+}
+
+span.screen-reader-text {
+	display : none;
+}
+
+input.search-field {
+	border-radius: 5px;
+	width: 300px;
+}
+
+input.search-field::placeholder {
+	color: #00000080;
+	padding-left: 10px;
+}
+
+input.search-submit {
+	background : #00a650;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	color: #fff;
+}
+
+section.no-results.not-found {
+	margin-top: -450px;
+	background: #faf7f2;
+	padding: 0 2rem;
+} 
+
+/* Comment Form */
+
+/* ----- Comment form ----- */
+#respond {
+	font-family: "Lato", sans-serif;
+	/* margin-top: 48px; */
+	/* margin-top: 3.428571429rem; */
+}
+
+#respond h3#reply-title {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.267;
+	padding-bottom: 15px;
+}
+
+#respond h3#reply-title #cancel-comment-reply-link {
+	margin-left: 10px;
+	margin-left: 0.714285714rem;
+	font-weight: 400;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+}
+
+#respond form {
+	margin: 24px 0;
+	margin: 1.714285714rem 0;
+}
+
+#respond form p {
+	margin: 11px 0;
+	margin: 0.785714286rem 0;
+}
+
+#respond form p.logged-in-as {
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+}
+
+#respond form label {
+	display: block;
+	line-height: 1.714285714;
+}
+
+#respond form input[type="text"],
+#respond form textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 1.714285714;
+	padding: 10px;
+	padding: 0.714285714rem;
+	width: 100%;
+}
+
+#respond form p.form-allowed-tags {
+	margin: 0;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 2;
+	color: #484848;
+}
+
+.required {
+	color: red;
+}
+
+label ~ span.required {
+	display: block;
+	float: left;
+	margin: -18px 0 0 -16px;
+	margin: -1.285714286rem 0 0 -1.142857143rem;
+}
+
+#respond h3#reply-title {
+	color: #d66300;
+	padding: 0px;
+	font-size: 25px;
+}
+
+#respond p.comment-form-comment {
+	padding:0px;
+	margin: 0px;
+}
+
+#respond p.comment-form-comment #comment{
+	border-radius: 5px;
+	height: 150px;
+}
+
+#respond p.comment-form-author {
+	padding:0px;
+	margin: 0px;
+}
+
+#respond p.comment-form-author #author{
+	border-radius: 5px;
+	height: 40px;
+}
+
+#respond p.comment-form-email #email{
+	border-radius: 5px;
+	height: 40px;
+}
+
+#respond p.comment-form-url #url{
+	border-radius: 5px;
+	height: 40px;
+}
+
+#respond p.form-submit #submit{
+	border-radius: 5px;
+	height: 40px;
+	background: #00a650;
+	color: #fff;
+}
+
+/* Archive */
+
+header.page-header h1.page-title {
+	padding-top: 3rem;
+	padding-bottom: 0.5rem;
+	font-size: 50px;
+	color: #999;	
+}
+
+header.page-header div.archive-description {
+	color: #000;
+	border-bottom: solid 1px #999999;
+    margin-bottom: 4rem;	
+}
+
+
+
